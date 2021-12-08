@@ -1,0 +1,16 @@
+create table my_user(
+id int auto_increment primary key,
+name varchar(10) not null,
+email varchar(150) not null unique key,
+password varchar(150) not null)charset utf8;
+
+create table my_wb(
+id int auto_increment primary key,
+content varchar(150) not null,
+uid int not null,
+create_time datetime)charset utf8;
+
+create table my_other(
+id int primary key auto_increment,
+uid int not null,
+otherid int not null)charset utf8;
