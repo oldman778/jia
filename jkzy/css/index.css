@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.header{
+    height: 50px;
+    background-color: darkgray;
+    font-family: 'D:\Software\phpstudy_pro\font\ZCOOLXiaoWei-Regular.ttf';
+    font-size: 20px;
+    font-weight: bold;
+}
+.header_center{
+    width: 990px;
+    height: 50px;
+    margin: 0 auto;
+}
+.header .left{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+.header .right{
+    width: 350px;
+    height: 50px;
+    float: right;
+}
+.right_ul{
+    height: 50px;
+}
+.right_ul li{
+    text-align: center;
+    width: 70px;
+    height: 50px;
+    float: right;
+    line-height: 50px;
+}
+h1{
+    width: 20%;
+    height: 80px;
+    margin: 15px auto;
+    text-align: center;
+}
+.content{
+    widows: 80%;
+    height: 900px;
+    /* background-color: #9999; */
+    /* border-radius: 15px; */
+}
+.content .kernel{
+    width: 70%;
+    margin: 20px auto;
+}
+.content .kernel ul{
+    background-color: aqua;
+}
+.content .kernel ul li{
+    width: 100%;
+    height: 40px;
+    color: #000;
+    line-height: 50px;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+.content .kernel ul .name{
+    text-indent: 4px;
+}
+.content .kernel ul .create_time{
+    text-indent: 2px;
+    font-size: 5px;
+    line-height: 15px;
+}
+.content .kernel ul .content{
+    text-indent: 2em;
+    line-height: 5px;
+}
