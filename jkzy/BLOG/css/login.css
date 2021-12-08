@@ -1,0 +1,107 @@
+*{
+    border-radius: 4px;
+}
+/* body {
+    background: url("../img/1.jpg") center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+#login-box {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    background: #0a77f369;
+    padding: 20px 50px;
+    border-radius: 14px;
+}
+
+#login-box h1 {
+    color: white;
+
+}
+
+#login-box .form .item {
+    margin-top: 15px;
+}
+
+#login-box .form .item input {
+    width: 300px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 2px;
+    border-bottom: 3px solid white;
+    padding: 5px 10px;
+    background: #ffffff00;
+    color: #ffffff;
+    outline: none;
+}
+
+#login-box .form .item input[placeholder] {
+    color: rgb(255, 255, 255);
+}
+
+#login-box .form .item i {
+    font-size: 18px;
+    color: white;
+}
+
+#login-box .form .captcha {
+    margin-top: 15px;
+}
+
+#login-box .form .captcha input{
+    width: 190px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 2px;
+    border-bottom: 3px solid white;
+    padding: 5px 10px;
+    background: #ffffff00;
+    color: #ffffff;
+    outline: none;
+}
+
+#login-box .form .captcha i{
+    font-size: 18px;
+    color: white;
+}
+
+#login-box .form .captcha img{
+    width: 100px;
+    height: 30px;
+}
+
+#login-box button {
+    border: 0;
+    margin-top: 30px;
+    width: 125px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(to bottom, #0a77f3 0%, #ccc 100%);
+    border-radius: 4px;
+}
+
+#message-box {
+    color: white;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    
+}
+#message-box a{
+    text-decoration: none;
+    color: #000;
+}
+#message-box a:hover{
+    color: #0a77f3;
+}
+#message-box a:focus{
+    color: #ccc;
+}
